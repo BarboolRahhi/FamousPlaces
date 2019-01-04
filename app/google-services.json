@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "653999201337",
+    "firebase_url": "https://famousplaces-15f4b.firebaseio.com",
+    "project_id": "famousplaces-15f4b",
+    "storage_bucket": "famousplaces-15f4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653999201337:android:aaecba63e900ff5f",
+        "android_client_info": {
+          "package_name": "in.barbool.famousplaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653999201337-tp4c650tg8inmcenq0eoe5q912ag9vhe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.barbool.famousplaces",
+            "certificate_hash": "10d9074c2ceedacb511c5c27881bb6e7bcb85aaa"
+          }
+        },
+        {
+          "client_id": "653999201337-es3uk1qd4t47676q9ee0nr8a47ink4fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOlhf2PMGuWi-k_XLK9CH-FFdLhnoGrys"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653999201337-es3uk1qd4t47676q9ee0nr8a47ink4fa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

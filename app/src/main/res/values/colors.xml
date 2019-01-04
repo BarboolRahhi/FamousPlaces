@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#d1d6d4</color>
+    <color name="colorAccent">#FFE13412</color>
+
+    <color name="colorHotel">#84DBFF</color>
+    <color name="colorRestaruant">#89C947</color>
+    <color name="colorHospital">#C02E23</color>
+    <color name="colorPlaces">#229170</color>
+    <color name="unselectedColor">#FFDFE6E3</color>
+    <color name="creamColor">#2ecc71</color>
+    <color name="whiteColor">#ffffff</color>
+    <color name="BlackColor">#000000</color>
+    <color name="colorBule">#457DD7</color>
+</resources>

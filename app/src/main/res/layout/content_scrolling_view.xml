@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingViewActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whiteColor">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:id="@+id/linear3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/mTitle"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Hotel Delhi"
+                android:textColor="@color/BlackColor"
+                android:textSize="24sp" />
+
+            <RelativeLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/save_view"/>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear3"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="4.3"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="@color/colorAccent"
+                android:progressTint="@color/colorAccent"
+                android:rating="4.3"
+                android:theme="@style/RatingBar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="659 reviews"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear2"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
+
+
+            <TextView
+                android:id="@+id/mDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mTitle"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="15dp"
+                android:text="djfd fdifjd fd vodif9u df9uf dfdfh fdofiud dfdufd dfidu"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#F5F5F5"
+                android:layout_marginStart="16dp"
+                android:layout_height="2dp">
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/address" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:text="Rajpath, India Gate,  Delhi, 11062,india"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:id="@+id/website"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:text="www.indiahotel.com"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:id="@+id/phoneCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/phonecall" />
+
+                <TextView
+                    android:id="@+id/phonenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:text="0183 509 9905"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#F5F5F5"
+                android:layout_marginStart="16dp"
+                android:layout_height="2dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Search Your Result in Google Map"
+                    android:textColor="@color/BlackColor"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/googleMap"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/map_location" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#F5F5F5"
+                    android:layout_marginStart="16dp"
+                    android:layout_height="2dp">
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Photos"
+                    android:textColor="@color/BlackColor"
+                    android:textSize="20sp"
+                    android:layout_marginStart="16dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/ViewPager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true">
+
+                    </android.support.v4.view.ViewPager>
+
+                    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+                        android:id="@+id/worm_dots_indicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="200dp"
+                        app:dotsColor="@color/whiteColor"
+                        app:dotsCornerRadius="8dp"
+                        app:dotsSize="10dp"
+                        app:dotsSpacing="4dp"
+                        app:dotsStrokeColor="@color/unselectedColor"
+                        app:dotsStrokeWidth="2dp" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book Your Hotel:"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="16dp"
+                    android:textColor="#457DD7"
+                    android:textSize="22sp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#F5F5F5"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="2dp">
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_below="@+id/linear1"
+                    android:id="@+id/recyclerView1"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Top Reviews"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="16dp"
+                    android:textSize="22sp"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_below="@+id/linear1"
+                    android:id="@+id/recyclerView2"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
